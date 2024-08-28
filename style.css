@@ -1,0 +1,24 @@
+*{padding:0;margin:0;}
+body {background: #f7f7eb;}
+.noidung{padding:35px 50px;transition:.5s;}
+h1 {font-family:Cambria,Cochin,Georgia,Times,'Times New Roman',serif;text-align: center; font-size: 24px;color: #b66e33;}
+h2 {text-align: center; font-size: 22px;color: #b66e33;padding: 10px; text-indent: 35px;}
+p {font-size: 18px;color: black;font-family: 'Times New Roman', serif;line-height: 1.5;text-indent: 35px ; text-align:justify;}
+table {width: 100%;border-collapse: collapse;table-layout: fixed; margin: 20px 0;font-family: 'Times New Roman', serif;}
+th, td {border: 1px solid #ddd;padding: 10px;width: 20%; text-align: center;vertical-align: middle; }
+th {background-color: #f2f2f2;color: #b16931;;font-size: 18px;}
+td {background-color: #b16931;color: #f2f2f2;font-size: 18px;}
+.thanhbentrai{height:100%;background-color:#b16931;width:25%;transform:translateX(-100%);position:fixed;transition:.5s;}
+.thanhbentrai p{color:#f9f9f9;text-indent:50px;line-height:2;margin-bottom:unset;}
+.content{display:flex;flex-wrap:nowrap;position:relative;width:100%;}
+.content.active .thanhbentrai{transform:unset;}
+.content.active .noidung{width:75%;margin-left:25%;}
+.active-this{position:absolute;left:100%;top:50%;z-index:1;background:#b16931;color:#fff;padding:10px 10px;border-radius:0 10px 10px 0;cursor:pointer;}
+.container {min-height: 100px; display: flex; justify-content: center; align-items: center; flex-direction:column;}
+.khunganh {overflow: hidden; height: 400px; width: 600px; margin: 30px 0px auto;}
+.anhchay {width: 500%; animation: slideshow 16s infinite;}
+.anh {float: left; height: 300px; display: flex; justify-content: center; align-items: center; -webkit-box-reflex:below 1px -webkit -gradient(linear; right top; right bottom; form;form(transparent) to (rgba(255, 255, 255, 0.3)))}
+@keyframes slideshow{20%{margin-left:0;}30%{margin-left:-100%;}40%{margin-left:-100%;}50%{margin-left:-200%;}60%{margin-left:-200%;}70%{margin-left:-300%;}80%{margin-left:-300%;}90%{margin-left:-400%;}100%{margin-left:-400%;}}
+.video {text-align: center; margin-top: 20px; margin-bottom: 20px;}
+.cauhoi {text-indent: 35px;font-size: 18px; color: black;font-family: 'Times New Roman', serif;line-height: 1.5;}
+.cauhoi ul li {list-style:none; font-size: 18px; color: black;font-family: 'Times New Roman', serif;line-height: 1.5;text-indent: 35px ; text-align:justify;}
